@@ -11,7 +11,7 @@ int main()
 	scanf("%d",&nb);
 	if(nb<0) printf("op impossible");
 	else {
-		for(i=1;i<nb+1;i++)
+		for(i=2;i<nb+1;i++)
 		{
 			fact=fact*i;
      	}
